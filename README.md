@@ -26,8 +26,9 @@ Telegram Bot API
 Config file (config.ini) for tokens and settings
 
 -- How to Run
+1. Get your profile.json from LinkedIn through email!!
 
-Install dependencies:  
+2. Install dependencies:  
 python-telegram-bot
 requests
 python-dotenv          # if you use .env instead of config.ini
@@ -35,7 +36,7 @@ configparser
 sqlite3-binary         # or just use stdlib sqlite3, no install needed
 pytz                   # if you handle timezones
 
-Configuration (API keys and tokens)
+3. Configuration (API keys and tokens)
 The bot reads secrets from config.ini. Create this file in the project root (or edit the existing one) with the following sections:
 [TELEGRAM]
 bot_token = YOUR_TELEGRAM_BOT_TOKEN
@@ -43,7 +44,7 @@ bot_token = YOUR_TELEGRAM_BOT_TOKEN
 app_id = YOUR_ADZUNA_APP_ID
 app_key = YOUR_ADZUNA_APP_KEY
 
-How to get these values:
+4. How to get these values:
 
 Telegram bot_token
 Open Telegram and search for “BotFather”.
@@ -56,7 +57,7 @@ Create a new application to get your app_id and app_key.
 Paste them in the [ADZUNA] section of config.ini.
 Create a Telegram bot via BotFather and paste the bot token into config.ini.
 
-Run the bot
+5. Run the bot
 python main.py
 
 Open Telegram, search for your bot, and start chatting to receive job recommendations.
