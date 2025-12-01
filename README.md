@@ -45,7 +45,6 @@ app_id = YOUR_ADZUNA_APP_ID
 app_key = YOUR_ADZUNA_APP_KEY
 
 4. How to get these values:
-
 Telegram bot_token
 Open Telegram and search for “BotFather”.
 Use /newbot to create a bot, follow the prompts, and copy the HTTP API token given at the end.
